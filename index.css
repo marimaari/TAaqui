@@ -68,6 +68,13 @@ body{
 
 
 .ativo {
-    +
+    background-color: cornflowerblue;
+    border-bottom: 4px solid #3A375E;
+}
+
+
+:root {
+    --botao-activo:var(--verde)
+    --cor-de-fundo: #lflf;
 
 }
