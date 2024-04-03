@@ -58,18 +58,19 @@ body{
 }
 
 :root{
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --cor-de-fundo: #fff6e9;
+    --verde: #143f0c;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #d40404;
+    --botao-ativo: #290058;
+    --botao-inativo: ;
+    --texto-fundo: rgb(23, 20, 56);
 }
 
 
 .ativo {
-    background-color: cornflowerblue;
-    border-bottom: 4px solid #3A375E;
+    background-color: rgb(195, 216, 255);
+    border-bottom: 4px solid #3f34b3;
 }
 
 
