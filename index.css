@@ -93,3 +93,14 @@ border-bottom: 4px solid var(--verde);
     color: var(--verde); 
     text-transform: uppercase;
 }
+
+.aba-conteudo-item{
+    display: none;
+}
+
+.aba-conteudo-item-ativo{
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
