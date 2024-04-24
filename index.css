@@ -2,6 +2,8 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
+    padding: 20px;
+    margin: 0;
 }
 
 .conteudo-principal{
@@ -20,10 +22,6 @@ body{
     font-size: 32px;
 }
 
-.titulo-principal span {
-    color: var(--verde);
-}
-
 .botao{
     font-family: sans-serif;
     background-color: var(--botao-inativo);
@@ -31,13 +29,16 @@ body{
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 10px;
+    font-size: 16px;
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
     border-top: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .botoes{
@@ -50,52 +51,45 @@ body{
 }
 
 .botao:first-child{
-    border-radius: 40px 0 0 0;
+    border-radius: 5px 0 0 5px;
 }
 
 .botao:last-child{
-    border-radius: 0 40px 0 0;
+    border-radius: 0 5px 5px 0;
 }
 
 :root{
-    --cor-de-fundo: #160441;
-    --verde: #143f0c;
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
-    --botao-ativo: #d40404;
-    --botao-inativo: rgba( 10, 36, 20, 52);
-    --texto-fundo: rgba(23, 20, 56, 30);
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
-
-.ativo {
-    background-color: rgb(195, 216, 255);
-    border-bottom: 4px solid #3b30bb;
-}
-
-
-.abas-texto{
-      background-color: var(--texto-fundo);
-      padding: 40px;
-      border-radius: 0 0 40px 40px;
-}
-
-.botao.ativo{
+.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
-.aba-conteudo.ativo{
-    display: block;
+.abas-textos{
+background-color: var(--texto-fundo); 
+padding: 40px;
+border-radius: 0 0 40px 40px;
 }
 
-.aba-conteudo{
-
-display: none
+.botao.ativo{
+background-color: var(--botao-ativo);
+border-bottom: 4px solid var(--verde);
 }
 
-.aba-conteudo-titulo-principal{
+.aba-conteudo-titulo-principal{ 
     font-size: 28px;
+    text-align: center;
 }
-.aba-conteudo-titulo-secundario{
     
+.aba-conteudo-titulo-secundario{ 
+    text-align: center;
+    color: var(--verde); 
+    text-transform: uppercase;
 }
